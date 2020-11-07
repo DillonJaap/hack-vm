@@ -1,0 +1,164 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/a3c87ab5/
+Cell	hashmap.h	/^struct Cell $/;"	s
+DATA_LEN	hashmap.h	/^#define DATA_LEN /;"	d
+Data	hashmap.h	/^typedef union Data$/;"	u
+Data	hashmap.h	/^} Data;$/;"	t	typeref:union:Data
+DataType	hashmap.h	/^typedef enum DataType$/;"	g
+DataType	hashmap.h	/^} DataType;$/;"	t	typeref:enum:DataType
+FLOAT	hashmap.h	/^	FLOAT  = 0x2,$/;"	e	enum:DataType
+HASHMAP_H	hashmap.h	/^#define HASHMAP_H$/;"	d
+HashTable	hashmap.h	/^typedef struct HashTable$/;"	s
+HashTable	hashmap.h	/^} HashTable;$/;"	t	typeref:struct:HashTable
+INT	hashmap.h	/^	INT    = 0x1,$/;"	e	enum:DataType
+LENGTH	hashmap.h	/^#define LENGTH /;"	d
+MAX_ARGS	parser.h	/^#define MAX_ARGS /;"	d
+MAX_INST	parser.h	/^#define MAX_INST /;"	d
+NONE	hashmap.h	/^	NONE   = 0x0,$/;"	e	enum:DataType
+SEP_CHAR	main.c	/^#define SEP_CHAR /;"	d	file:
+STRING	hashmap.h	/^	STRING = 0x4$/;"	e	enum:DataType
+TEMP_BASE_ADDR	translate.c	/^const int TEMP_BASE_ADDR = 5;$/;"	v	typeref:typename:const int
+_eq	translate.c	/^int _eq = 0;$/;"	v	typeref:typename:int
+_goto	translate.c	/^int _goto = 0;$/;"	v	typeref:typename:int
+_gt	translate.c	/^int _gt = 0;$/;"	v	typeref:typename:int
+_lt	translate.c	/^int _lt = 0;$/;"	v	typeref:typename:int
+_not	translate.c	/^int _not = 0;$/;"	v	typeref:typename:int
+_return	translate.c	/^int _return = 0;$/;"	v	typeref:typename:int
+add	translate.c	/^int add = 0;$/;"	v	typeref:typename:int
+all	makefile	/^all: $/;"	t
+and	translate.c	/^int and = 0;$/;"	v	typeref:typename:int
+append_sep	main.c	/^void append_sep(char* src)$/;"	f	typeref:typename:void
+bin_op_asm	upoptimized.c	/^static char* bin_op_asm =$/;"	v	typeref:typename:char *	file:
+bin_op_asm	vmcmds.c	/^static char* bin_op_asm =$/;"	v	typeref:typename:char *	file:
+bool_asm	xvmcmds.c	/^static char* bool_asm = $/;"	v	typeref:typename:char *	file:
+boot_asm	upoptimized.c	/^static char* boot_asm = $/;"	v	typeref:typename:char *	file:
+boot_asm	vmcmds.c	/^static char* boot_asm = $/;"	v	typeref:typename:char *	file:
+call	translate.c	/^int call = 0;$/;"	v	typeref:typename:int
+call_asm	upoptimized.c	/^static char* call_asm =$/;"	v	typeref:typename:char *	file:
+call_asm	vmcmds.c	/^static char* call_asm =$/;"	v	typeref:typename:char *	file:
+check_error	error.c	/^int check_error(HashTable* cmds, HashTable* segments, HashTable* labels,$/;"	f	typeref:typename:int
+data	hashmap.h	/^	union Data data;$/;"	m	struct:Cell	typeref:union:Data
+f	hashmap.h	/^	double  f;$/;"	m	union:Data	typeref:typename:double
+fgetcskip	parser.c	/^char fgetcskip(FILE *f)$/;"	f	typeref:typename:char
+function	translate.c	/^int function = 0;$/;"	v	typeref:typename:int
+function_header_asm	vmcmds.c	/^static char* function_header_asm =$/;"	v	typeref:typename:char *	file:
+generic_call_asm	vmcmds.c	/^static char* generic_call_asm =$/;"	v	typeref:typename:char *	file:
+generic_return_asm	vmcmds.c	/^static char* generic_return_asm =$/;"	v	typeref:typename:char *	file:
+get_cmd	parser.c	/^int get_cmd(FILE* f, char* cmd)$/;"	f	typeref:typename:int
+get_dir	main.c	/^void get_dir(char* dest, char* src)$/;"	f	typeref:typename:void
+get_file_ext	main.c	/^void get_file_ext(char *dest, char* src)$/;"	f	typeref:typename:void
+get_name	main.c	/^void get_name(char* dest, char* src)$/;"	f	typeref:typename:void
+get_nargs	parser.c	/^int get_nargs(char** args, char* cmd, int num)$/;"	f	typeref:typename:int
+goto_asm	upoptimized.c	/^static char* goto_asm =$/;"	v	typeref:typename:char *	file:
+goto_asm	vmcmds.c	/^static char* goto_asm =$/;"	v	typeref:typename:char *	file:
+hash_string	hashmap.c	/^uint32_t hash_string(char* s)$/;"	f	typeref:typename:uint32_t
+ht_copy_data	hashmap.c	/^void ht_copy_data(Data* dest, void* src, DataType type)$/;"	f	typeref:typename:void
+ht_delete	hashmap.c	/^int ht_delete(HashTable* ht, char* key)$/;"	f	typeref:typename:int
+ht_exists	hashmap.c	/^bool ht_exists(HashTable* ht, char* key)$/;"	f	typeref:typename:bool
+ht_find	hashmap.c	/^bool ht_find(HashTable* ht, char* key, void* data, DataType type)$/;"	f	typeref:typename:bool
+ht_insert	hashmap.c	/^void ht_insert(HashTable* ht, char* key, void* data, DataType type)$/;"	f	typeref:typename:void
+i	hashmap.h	/^	int32_t i;$/;"	m	union:Data	typeref:typename:int32_t
+if_goto	translate.c	/^int if_goto = 0;$/;"	v	typeref:typename:int
+if_goto_asm	upoptimized.c	/^static char* if_goto_asm =$/;"	v	typeref:typename:char *	file:
+if_goto_asm	vmcmds.c	/^static char* if_goto_asm =$/;"	v	typeref:typename:char *	file:
+index_in_range	error.c	/^bool index_in_range(HashTable* segments, char* seg, char* addr)$/;"	f	typeref:typename:bool
+init_cell	hashmap.c	/^struct Cell* init_cell(char key[], void* data, DataType type)$/;"	f	typeref:struct:Cell *
+init_ht	hashmap.c	/^HashTable* init_ht(DataType type)$/;"	f	typeref:typename:HashTable *
+init_tables	hashmap.c	/^void init_tables(HashTable** cmds, HashTable** segments)$/;"	f	typeref:typename:void
+is_cmd	error.c	/^bool is_cmd(HashTable* cmds, char* cmd_name)$/;"	f	typeref:typename:bool
+is_more_cmds	parser.c	/^int is_more_cmds(FILE *f)$/;"	f	typeref:typename:int
+key	hashmap.h	/^	char key[DATA_LEN];$/;"	m	struct:Cell	typeref:typename:char[]
+known_mem_seg	error.c	/^bool known_mem_seg(HashTable* segments, char* seg)$/;"	f	typeref:typename:bool
+l_and_asm	xvmcmds.c	/^static char* l_and_asm = $/;"	v	typeref:typename:char *	file:
+l_not_asm	xvmcmds.c	/^static char* l_not_asm = $/;"	v	typeref:typename:char *	file:
+l_or_asm	xvmcmds.c	/^static char* l_or_asm = $/;"	v	typeref:typename:char *	file:
+l_xor_asm	xvmcmds.c	/^static char* l_xor_asm =$/;"	v	typeref:typename:char *	file:
+label	translate.c	/^int label = 0;$/;"	v	typeref:typename:int
+label_asm	upoptimized.c	/^static char* label_asm =$/;"	v	typeref:typename:char *	file:
+label_asm	vmcmds.c	/^static char* label_asm =$/;"	v	typeref:typename:char *	file:
+legal_index	error.c	/^bool legal_index(const char* num)$/;"	f	typeref:typename:bool
+legal_label	error.c	/^bool legal_label(char* name)$/;"	f	typeref:typename:bool
+logic_op_asm	upoptimized.c	/^static char* logic_op_asm =$/;"	v	typeref:typename:char *	file:
+logic_op_asm	vmcmds.c	/^static char* logic_op_asm =$/;"	v	typeref:typename:char *	file:
+main	main.c	/^int main(int argc, char* argv[])$/;"	f	typeref:typename:int
+neg	translate.c	/^int neg = 0;$/;"	v	typeref:typename:int
+next	hashmap.h	/^	struct Cell* next;$/;"	m	struct:Cell	typeref:struct:Cell *
+or	translate.c	/^int or  = 0;$/;"	v	typeref:typename:int
+parse	parser.c	/^void parse(FILE* in, FILE* out, char* fname, bool boot, HashTable* labels)$/;"	f	typeref:typename:void
+pop_argument	translate.c	/^int pop_argument;$/;"	v	typeref:typename:int
+pop_const_asm	upoptimized.c	/^static char* pop_const_asm =$/;"	v	typeref:typename:char *	file:
+pop_const_asm	vmcmds.c	/^static char* pop_const_asm =$/;"	v	typeref:typename:char *	file:
+pop_constant	translate.c	/^int pop_constant = 0;$/;"	v	typeref:typename:int
+pop_local	translate.c	/^int pop_local = 0;$/;"	v	typeref:typename:int
+pop_mem_asm	upoptimized.c	/^static char* pop_mem_asm =$/;"	v	typeref:typename:char *	file:
+pop_mem_asm	vmcmds.c	/^static char* pop_mem_asm =$/;"	v	typeref:typename:char *	file:
+pop_pointer_that	translate.c	/^int pop_pointer_that = 0;$/;"	v	typeref:typename:int
+pop_pointer_this	translate.c	/^int pop_pointer_this = 0;$/;"	v	typeref:typename:int
+pop_ram_asm	xvmcmds.c	/^static char* pop_ram_asm =$/;"	v	typeref:typename:char *	file:
+pop_static	translate.c	/^int pop_static = 0;$/;"	v	typeref:typename:int
+pop_temp	translate.c	/^int pop_temp = 0;$/;"	v	typeref:typename:int
+pop_temp_asm	upoptimized.c	/^static char* pop_temp_asm =$/;"	v	typeref:typename:char *	file:
+pop_temp_asm	vmcmds.c	/^static char* pop_temp_asm =$/;"	v	typeref:typename:char *	file:
+pop_that	translate.c	/^int pop_that = 0;$/;"	v	typeref:typename:int
+pop_this	translate.c	/^int pop_this = 0;$/;"	v	typeref:typename:int
+pop_total	translate.c	/^int pop_total = 0;$/;"	v	typeref:typename:int
+pop_value_asm	upoptimized.c	/^static char* pop_value_asm =$/;"	v	typeref:typename:char *	file:
+pop_value_asm	vmcmds.c	/^static char* pop_value_asm =$/;"	v	typeref:typename:char *	file:
+pre_scan	parser.c	/^int pre_scan(FILE* f, char* fname, HashTable* labels)$/;"	f	typeref:typename:int
+print_error	error.c	/^void print_error(char* msg, char* fname, char* cmd, int line_num)$/;"	f	typeref:typename:void
+print_totals	translate.c	/^void print_totals()$/;"	f	typeref:typename:void
+properly_formated	error.c	/^bool properly_formated(HashTable* cmds, char* cmd_name, int nArgs)$/;"	f	typeref:typename:bool
+push_argument	translate.c	/^int push_argument = 0;$/;"	v	typeref:typename:int
+push_const_asm	upoptimized.c	/^static char* push_const_asm = $/;"	v	typeref:typename:char *	file:
+push_const_asm	vmcmds.c	/^static char* push_const_asm = $/;"	v	typeref:typename:char *	file:
+push_constant	translate.c	/^int push_constant = 0;$/;"	v	typeref:typename:int
+push_local	translate.c	/^int push_local = 0;$/;"	v	typeref:typename:int
+push_mem_asm	upoptimized.c	/^static char* push_mem_asm = $/;"	v	typeref:typename:char *	file:
+push_mem_asm	vmcmds.c	/^static char* push_mem_asm = $/;"	v	typeref:typename:char *	file:
+push_mem_zero_asm	vmcmds.c	/^static char* push_mem_zero_asm =$/;"	v	typeref:typename:char *	file:
+push_one_asm	vmcmds.c	/^static char* push_one_asm =$/;"	v	typeref:typename:char *	file:
+push_pointer_that	translate.c	/^int push_pointer_that = 0;$/;"	v	typeref:typename:int
+push_pointer_this	translate.c	/^int push_pointer_this = 0;$/;"	v	typeref:typename:int
+push_ram_asm	xvmcmds.c	/^static char* push_ram_asm = $/;"	v	typeref:typename:char *	file:
+push_static	translate.c	/^int push_static = 0;$/;"	v	typeref:typename:int
+push_temp	translate.c	/^int push_temp = 0;$/;"	v	typeref:typename:int
+push_temp_asm	upoptimized.c	/^static char* push_temp_asm = $/;"	v	typeref:typename:char *	file:
+push_temp_asm	vmcmds.c	/^static char* push_temp_asm = $/;"	v	typeref:typename:char *	file:
+push_that	translate.c	/^int push_that = 0;$/;"	v	typeref:typename:int
+push_this	translate.c	/^int push_this = 0;$/;"	v	typeref:typename:int
+push_total	translate.c	/^int push_total = 0;$/;"	v	typeref:typename:int
+push_value_asm	upoptimized.c	/^static char* push_value_asm = $/;"	v	typeref:typename:char *	file:
+push_value_asm	vmcmds.c	/^static char* push_value_asm = $/;"	v	typeref:typename:char *	file:
+push_zero_asm	upoptimized.c	/^static char* push_zero_asm =$/;"	v	typeref:typename:char *	file:
+push_zero_asm	vmcmds.c	/^static char* push_zero_asm =$/;"	v	typeref:typename:char *	file:
+resolved_label	error.c	/^bool resolved_label(HashTable* labels, char* label)$/;"	f	typeref:typename:bool
+return_asm	upoptimized.c	/^static char* return_asm =$/;"	v	typeref:typename:char *	file:
+return_asm	vmcmds.c	/^static char* return_asm =$/;"	v	typeref:typename:char *	file:
+str	hashmap.h	/^	char    str[DATA_LEN];$/;"	m	union:Data	typeref:typename:char[]
+strcpytil	parser.c	/^char* strcpytil(char* dest, char* src, const char* til)$/;"	f	typeref:typename:char *
+sub	translate.c	/^int sub = 0;$/;"	v	typeref:typename:int
+sub_asm	upoptimized.c	/^static char* sub_asm =$/;"	v	typeref:typename:char *	file:
+sub_asm	vmcmds.c	/^static char* sub_asm =$/;"	v	typeref:typename:char *	file:
+table	hashmap.h	/^	struct Cell* table[LENGTH];$/;"	m	struct:HashTable	typeref:struct:Cell * []
+translate_cmd	translate.c	/^void translate_cmd(FILE* f, char* fname, char* args[], HashTable* labels)$/;"	f	typeref:typename:void
+type	hashmap.h	/^	DataType type;	$/;"	m	struct:HashTable	typeref:typename:DataType
+unary_op_asm	upoptimized.c	/^static char* unary_op_asm =$/;"	v	typeref:typename:char *	file:
+unary_op_asm	vmcmds.c	/^static char* unary_op_asm =$/;"	v	typeref:typename:char *	file:
+write_bool	translate.c	/^void write_bool(FILE* f)$/;"	f	typeref:typename:void
+write_boot_code	translate.c	/^void write_boot_code(FILE* f)$/;"	f	typeref:typename:void
+write_call	translate.c	/^void write_call(FILE* f, char* label, char* nArgs)$/;"	f	typeref:typename:void
+write_function	translate.c	/^void write_function(FILE* f, char* label, char* nVars)$/;"	f	typeref:typename:void
+write_generic_return	translate.c	/^void write_generic_return(FILE* f)$/;"	f	typeref:typename:void
+write_land	translate.c	/^void write_land(FILE* f)$/;"	f	typeref:typename:void
+write_lnot	translate.c	/^void write_lnot(FILE* f)$/;"	f	typeref:typename:void
+write_logic_op	translate.c	/^void write_logic_op(FILE* f, char* op, int i)$/;"	f	typeref:typename:void
+write_lor	translate.c	/^void write_lor(FILE* f)$/;"	f	typeref:typename:void
+write_lxor	translate.c	/^void write_lxor(FILE* f)$/;"	f	typeref:typename:void
+write_pop	translate.c	/^void write_pop(FILE* f, char* segment, char* num, char* fname)$/;"	f	typeref:typename:void
+write_push	translate.c	/^void write_push(FILE* f, char* segment, char* num, char* fname)$/;"	f	typeref:typename:void

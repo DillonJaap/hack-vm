@@ -1,0 +1,40 @@
+opening directory: pj02_username/XVMTe/
+file: pj02_username/XVMTe/Test.vm
+Test:7: error: unkown command
+  7 | psuh constant 0     
+
+Test:8: error: incorret num of args: 2
+  8 | add 1               
+
+Test:9: error: incorret num of args: 1
+  9 | push                
+
+Test:10: error: incorret num of args: 6
+  10 | push constant 0     /  Improper format
+
+Test:11: error: illegal index
+  11 | push constant -1    
+
+Test:12: error: index out of range
+  12 | pop temp 8          
+
+Test:13: error: index out of range
+  13 | push constant 32768 
+
+Test:14: error: illegal label
+  14 | label 4bad          
+
+Test:15: error: unresolved label
+  15 | goto Cost:24        
+
+Test:16: error: unresolved label
+  16 | if-goto Cost:$24    
+
+Test:19: error: illegal count
+  19 | function myFunc n   
+
+Test:20: error: illegal count
+  20 | call myFunc -1      
+
+file: pj02_username/XVMTe/Sys.vm
+No file created, 12 errors found!
